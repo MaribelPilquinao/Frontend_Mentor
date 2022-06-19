@@ -1,0 +1,114 @@
+/* ---color var --- */
+:root{
+    --color-primary-brightblue: hsl(245, 75%, 52%);
+    --color-primary-paleblue: hsl(225, 100%, 94%);
+    --color-neutral-blue: hsl(225, 100%, 98%);
+    --color-neutral-bluelight: hsl(224, 23%, 55%);
+    --color-neutral-darkblue: hsl(223, 47%, 23%);
+}
+body{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+h1, h2, p{
+    margin: 0;
+}
+
+ /* Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>  */
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* ---Mobile --- */
+body{
+    background-image: url(./images/pattern-background-mobile.svg);
+}
+.container__card{
+    margin: 1.5rem;
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: var(--color-neutral-blue);
+    
+}
+.img__header-card{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: .5rem;
+}
+.card{
+    text-align: center;
+    line-height: 1.5;
+    margin: 1.5rem;
+}
+.card__title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: .7rem;
+}
+.card__title-parrafo{
+    color: var(--color-neutral-darkblue);
+    font-size: .9rem;
+}
+.card-1{
+    background-color: var(--color-neutral-blue);  
+    display: inline-flex;
+    
+    width: 250px;
+    /* justify-content: center; */
+}
+.card-1{
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+.card-1__img{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+
+}
+.card__title-price{
+    position: relative;
+    top: -1rem;
+
+}
+.card__price-year{
+    position: relative;
+    top: 3rem;
+
+}
+.card__link{
+    
+
+}
+.buttons{
+    text-align: center;
+
+}
+.buttons__proceed{
+    position: relative;
+    background-color:var(--color-primary-brightblue);
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    color: var(--color-neutral-blue);
+    font-weight: 700;
+}
+.buttons__cancel{
+    background-color: transparent;
+    border: 0;
+    font-weight: 900;
+    color: var(--color-neutral-bluelight);
+    height: 40px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
